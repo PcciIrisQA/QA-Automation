@@ -125,7 +125,7 @@ public class Test_Case_1_LogIn
 		// System.out.println(text);
 		String output = CharMatcher.is('-').or(CharMatcher.DIGIT)
 				.retainFrom(text);
-		//System.out.println("Pin E-mailed - PASS. Pin:" + output);
+		System.out.println("Pin E-mailed - PASS. Pin:" + output);
 		driver.quit();
 		return output;
 		
